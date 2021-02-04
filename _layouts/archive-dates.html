@@ -28,10 +28,12 @@ layout: default
     {{ taxonomy.name }}
   </h2>
   <ul class="post-list-by-taxonomy">
+
+    {%- assign date_format = site.date_format | default: "%Y-%m-%d" -%}
     {%- assign posts = taxonomy.items -%}
     {%- for post in posts -%}
       <li>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> &raquo; <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <time datetime="{{ page.date | date_format }}">{{ post.date | date: date_format }}</time> &raquo; <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </li>
     {%- endfor -%}
   </ul>
