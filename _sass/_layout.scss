@@ -54,6 +54,7 @@ footer {
 
 @media (min-width: $lg-width) {
   .sidebar-right {
+    width: auto;
     display: block;
   }
 }
@@ -72,6 +73,6 @@ footer {
 
 @media (min-width: $md-width) and (max-width: $lg-width) {
   .content {
-    width: 60%;
+    width: 100%;
   }
 }

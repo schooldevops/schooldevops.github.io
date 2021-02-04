@@ -3,6 +3,8 @@ layout: post
 title:  "GitHub Pages with Jekyll"
 date:   2021-02-04 16:45:49 +0900
 categories: jekyll update
+tags: [jekylly]
+toc: true
 ---
 # GitHub Pages 
 
