@@ -6,7 +6,7 @@ categories: Architecture
 tags: [Architecture, MSA, Monolithic]
 toc: true
 ---
-# Microservice Architecture 도입 한 이유가 뭐니?
+# Microservice Architecture 도입
 
 ## Microservice Architecture 를 한문장으로 이야기 해봐. 
 
@@ -61,7 +61,7 @@ MSA 는 최근 업계 표준으로 자리 잡고있다. 시스템 아키텍팅�
 
 보통 모놀리식 아키텍처는 티어 혹은 레이어 구조를 가지며, `Front Tier` > `Backend Tier` > `Persistance Tier` 의 3단구조가 대부분이다. 
 
-![Monolithic](https://github.com/schooldevops/schooldevops.github.io/blob/main/assets/imgs/DecomposingApplications.011.jpg)
+![Monolithic Architecture](https://user-images.githubusercontent.com/66154381/107195843-36322900-6a35-11eb-80a4-e28bafb67263.jpg)
 
 <모놀리식 아키텍처: from https://microservices.io/patterns/monolithic.html>
 
@@ -162,7 +162,7 @@ MSA 는 최근 업계 표준으로 자리 잡고있다. 시스템 아키텍팅�
 
 각 서비스들은 각기 자신의 persistance layer 를 소유하고 있으며, 공통 프로토콜 (REST API, gRPC, AMQP) 등을 활용하여 상호 커뮤니케이션을 수행하게 된다. 
 
-![Microservice Architecture](https://github.com/schooldevops/schooldevops.github.io/blob/main/assets/imgs/Microservice_Architecture.png)
+![Microservice_Architecture](https://user-images.githubusercontent.com/66154381/107195752-1864c400-6a35-11eb-857f-49b97b908d0d.png)
 
 <MSA 아키텍처: from https://microservices.io/patterns/microservices.html>
 
