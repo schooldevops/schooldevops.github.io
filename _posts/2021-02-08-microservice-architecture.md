@@ -61,7 +61,9 @@ MSA 는 최근 업계 표준으로 자리 잡고있다. 시스템 아키텍팅�
 
 보통 모놀리식 아키텍처는 티어 혹은 레이어 구조를 가지며, `Front Tier` > `Backend Tier` > `Persistance Tier` 의 3단구조가 대부분이다. 
 
-<3Tier 그림>
+![Monolithic](https://github.com/schooldevops/schooldevops.github.io/blob/main/assets/imgs/DecomposingApplications.011.jpg)
+
+<모놀리식 아키텍처: from https://microservices.io/patterns/monolithic.html>
 
 프런트엔드 소스와 벡앤드, 퍼시스턴스 레이어 모두 하나의 war 파일에 묶어서 배포되는 경우가 많다. 
 
@@ -160,7 +162,9 @@ MSA 는 최근 업계 표준으로 자리 잡고있다. 시스템 아키텍팅�
 
 각 서비스들은 각기 자신의 persistance layer 를 소유하고 있으며, 공통 프로토콜 (REST API, gRPC, AMQP) 등을 활용하여 상호 커뮤니케이션을 수행하게 된다. 
 
-<MSA 아키텍처 그림>
+![Microservice Architecture](https://github.com/schooldevops/schooldevops.github.io/blob/main/assets/imgs/Microservice_Architecture.png)
+
+<MSA 아키텍처: from https://microservices.io/patterns/microservices.html>
 
 마이크로 서비스 아키텍처는 모놀리식 아키텍처로 부터 출발하는 것이 일반적이며, 시스템이 커지면서 다양한 문제점이 발생되는 시점부터 이를 해결하기 위한 방향으로 되입된다.
 
