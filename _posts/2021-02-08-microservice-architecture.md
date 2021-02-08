@@ -367,4 +367,4 @@ MSA 는 `분리된 각 서비스들이 상호 커뮤니케이션을 통해서 �
 
 참고: 
 - https://microservices.io/patterns/monolithic.html
-- 
+- https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4
