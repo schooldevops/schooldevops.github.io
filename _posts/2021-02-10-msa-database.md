@@ -283,6 +283,9 @@ MSA라고 해서 DB를 완전히 서비스마다 분리하는 것만이 능사�
 ## 참고
 
 [https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part](https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part/)
+
 [https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part-2/](https://blog.couchbase.com/saga-pattern-implement-business-transactions-using-microservices-part-2/)
+
 [https://microservices.io/patterns/data/database-per-service.html](https://microservices.io/patterns/data/database-per-service.html)
+
 [https://dzone.com/articles/two-phase-commit-distributed](https://dzone.com/articles/two-phase-commit-distributed)
