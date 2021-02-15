@@ -1,8 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+Yesterday is a history tomorrow is a mystery but today is a gift that is why it is called present.
 
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+Study every singleday and Kaizen.
+
+- Interested in a devops.
+- Recently interesting
+    - Kubernetes
+    - Terraform
+- Enjoy a coding.
+
+For more information about me, please browse the [schooldevops](https://github.com/schooldevops).
