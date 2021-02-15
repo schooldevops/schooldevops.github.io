@@ -61,9 +61,10 @@ OnPreme 시스템 중에서 단순한 시스템은 서비스와 통신하기 위
 
 서비스 디스커버리는 이러한 일을 처리하는 주체이며 서비스들을 등록관리하고, 서비스의 목록을 필요한 클라이언트로 응답하는 역할을 한다. 
 
-![https://miro.medium.com/max/1400/1*TrVDBKPjmt23nTW6vJEFxQ.png](https://miro.medium.com/max/1400/1*TrVDBKPjmt23nTW6vJEFxQ.png)
 
-from : https://miro.medium.com/max/1400/1*TrVDBKPjmt23nTW6vJEFxQ.png
+![https://www.nginx.com/wp-content/uploads/2016/04/Richardson-microservices-part4-1_difficult-service-discovery.png](https://www.nginx.com/wp-content/uploads/2016/04/Richardson-microservices-part4-1_difficult-service-discovery.png)
+
+from : https://www.nginx.com/wp-content/uploads/2016/04/Richardson-microservices-part4-1_difficult-service-discovery.png
 
 ### 서비스 요구사항 
 
