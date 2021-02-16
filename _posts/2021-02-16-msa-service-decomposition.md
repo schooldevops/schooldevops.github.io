@@ -113,6 +113,10 @@ toc: true
 
 비즈니스 어질리티, 서비스 어질리티를 이야기 하면서 분할 수 있는 하나의 방법은 비즈니스 영역별로 서비스를 분리하는 것이다. 
 
+![https://microservices.io/i/decompose-by-business-capability.png](https://microservices.io/i/decompose-by-business-capability.png)
+
+from : https://microservices.io/i/decompose-by-business-capability.png
+
 ### 비즈니스 영역으로 나누기
 
 - 비즈니스 영역을 정의한다. 비즈니스 영역의 범위를 명확히 하고, 어떻게 RnR 을 분리해야할지에 대한 논의가 필요하다. 
@@ -149,6 +153,10 @@ toc: true
 - Supporting Domain: 연관된 비즈니스 도메인이며, 핵심 도메인을 더욱 잘 구현하고 표출하기 위한 수단으로서의 도메인이다. 
 - Generic Domain: 비즈니스 이외에 주면의 영역이며, 언제든지 변경되거나 교체될 수 있는 도메인을 말한다. 
 
+![https://microservices.io/i/decompose-by-subdomain.png](https://microservices.io/i/decompose-by-subdomain.png)
+
+from: https://microservices.io/i/decompose-by-subdomain.png
+
 이렇게 서비스를 구분하면, 하나의 어플리케이션에서 코어 도메인은 오직 한개가 될 수도 있고, 몇개의 코어 도메인들이 분리될 수도 있다. 
 그러나 가장 중요한 포인트는 Core Domain 을 기준으로 서비스가 분리되고, 이들을 보조하는 서비들도 분리되어 별도 팀이 관리하거나, 혹은 코어 도메인을 담당하는 팀에서 해당 서비스를 함게 개발 운영할 수도 있다. 
 
@@ -167,6 +175,10 @@ toc: true
 ## 팀별 서비스 분할 
 
 팀별 서비스 분할은 기존의 비즈니스 업무 조직에 따라서 서비스를 분리하는 것을 말한다. 서비스 개편 혹은 IT 로 전환하는 업무인경우 더욱 잘 맞을 수 있으며, 기존에 불합리하게 수행하던 업무를 재정리하여 서비스로 분리하는 작업 역시 이에 해당한다. 
+
+![https://microservices.io/i/ServicePerTeam.png](https://microservices.io/i/ServicePerTeam.png)
+
+from : https://microservices.io/i/ServicePerTeam.png
 
 콘 웨이 법칙을 보면 시스템 아키텍처는 조직의 커뮤니케이션 구조를 닮는다라고 하며, 이 의미는 오랫동안 업무를 수행해 오던 조직이며, 업무를 개선해 나가는 조직의 경우 명확한 비즈니스 워크 플로우와 RnR 을 나누고 있기 때문에 
 서비스를 분리하는 경우 가장 자연스럽게 서비스가 분리 된다라고 할 수 있다. 
