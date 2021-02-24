@@ -70,7 +70,7 @@ index.html 파일을 생성하고 다음과 같이 작성하자.
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
-    <title>{{.Title}}</title>
+    <title>{ { .Title } }</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
 
@@ -108,18 +108,18 @@ index.html 파일을 생성하고 다음과 같이 작성하자.
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
     <div>
-      <h3 class="float-md-start mb-0">{{.SystemName}}</h3>
+      <h3 class="float-md-start mb-0">{ { .SystemName } }</h3>
     </div>
   </header>
 
   <main class="px-3">
-    <h1>{{.Title}}</h1>
+    <h1>{ { .Title } }</h1>
     <br/>
-    <pre class="lead">{{.Contents}}</pre>
+    <pre class="lead">{ { .Contents } }</pre>
 
-    {{if .Period}}
-      <div class="lead">{{.StartTime}} ~ {{.EndTime}}</div>
-    {{end}}
+    { { if .Period } }
+      <div class="lead">{ { .StartTime } } ~ { { .EndTime } }</div>
+    { { end } }
   </main>
 
   <footer class="mt-auto text-white-50">
