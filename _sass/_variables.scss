@@ -46,6 +46,9 @@
   --code-color: var(--grape);
   --code-bg: #fbf1c7;
 
+  --dark-code-bg: var(--gray-800);
+  --dark-code-color: white;
+
   --spacer: 1rem;
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
