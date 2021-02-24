@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Mac 에 Open JDK 설치하기. "
-date:   2021-02-24 09:45:49 +0900
+title:  "Mac 에 Open JDK 설치하기"
+date:   2021-02-24 09:00:49 +0900
 categories: Java
 tags: [Java, OpenJDK]
 toc: true
