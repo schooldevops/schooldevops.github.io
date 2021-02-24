@@ -145,11 +145,11 @@ bootstrap 을 이용할 것이기 때문에 bootstrap 을 위한 css 와 javascr
 
 그리고 go 에서 제공하는 내장 라이브러리인 template 을 이용하여 필요한 값을 채워넣기 위해서 다음과 같은 템플릿 플레이스홀더 코드를 작성했다. 
 
-- {{.Title}}
-- {{.SystemName}}
-- {{.Contents}}
-- {{if .Period}} ~ {{end}}
-- {{.StartTime}} ~ {{.EndTime}}
+- .Title
+- .SystemName
+- .Contents
+- if .Period ~ end
+- .StartTime ~ .EndTime
 
 이 속성들은 다음 경로에서 문서를 참조하자. [https://golang.org/pkg/text/template/](https://golang.org/pkg/text/template/)
 
