@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Kubernetes ArgoCD 설치하기"
-date:   2021-02-25 19:50:49 +0900
-categories: Go
-tags: [kubernetes, argocd, ci/cd, gitops, deploy]
+date:   2021-02-25 20:51:49 +0900
+categories: Kubernetes
+tags: [kubernetes, argocd, ci, cd, gitops, deploy]
 toc: true
 ---
 
@@ -238,5 +238,4 @@ SignIn 을 클릭하면 초기 화면으로 들어간다.
 
 docker-desktop 으로 작업해 보았지만 설치 과정은 그리 어렵지 않음을 알 수 있다. 
 
-
-
+이제부터 ArgoCD로 고고~..
