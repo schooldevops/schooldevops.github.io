@@ -209,7 +209,7 @@ cd go_todo_server
 
 소스코드 역시 가져왔다. 
 
-소스 코드에서 중요 부분은 mysql.go 내보에 있는 다음 부분이다. 
+소스 코드에서 중요 부분은 mysql.go 내부에 있는 다음 부분이다. 
 
 ```go
 var connectionString = "boarduser:boarduser123@tcp(go-todo-kido-db.cawucurfyhe9.ap-northeast-2.rds.amazonaws.com:3306)/simpleboard?charset=utf8&parseTime=True&loc=Local"
