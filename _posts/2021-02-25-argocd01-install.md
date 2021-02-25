@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kubernetes ArgoCD 설치하기"
-date:   2021-02-25 20:51:49 +0900
+date:   2021-02-25 19:51:49 +0900
 categories: Kubernetes
 tags: [kubernetes, argocd, ci, cd, gitops, deploy]
 toc: true
