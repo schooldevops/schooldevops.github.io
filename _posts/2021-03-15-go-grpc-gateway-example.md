@@ -311,6 +311,10 @@ curl http://localhost:9000/v1/echo/golang
 
 정상적으로 응답이 오는것을 확인할 수 있다. 
 
+## Sample Code
+
+https://github.com/schooldevops/grpc-gateway-example 
+
 ## 참고자료
 
 - grpc gateway: https://github.com/grpc-ecosystem/grpc-gateway
