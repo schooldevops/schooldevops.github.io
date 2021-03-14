@@ -36,7 +36,7 @@ https://github.com/googleapis/googleapis 에서 git 별도의 디렉토리에 cl
 
 ```go
 google/api/annotations.proto
-http.proto
+google/api/http.proto
 ```
 
 위 파일들은 모두 grpc에 rest api 를 지원하기 위한 필수 파일이다. 
