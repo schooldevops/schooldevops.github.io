@@ -20,6 +20,13 @@ Labels:             beta.kubernetes.io/arch=amd64
                     kubernetes.io/os=linux
 ```
 
+## Node Label 목록만 보기
+
+```go
+kubectl get nodes node01 --show-labels
+
+```
+
 ## Node Label 추가힉. 
 
 ```go
