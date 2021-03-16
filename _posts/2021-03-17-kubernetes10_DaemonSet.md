@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kubernetes DaemonSet 실습  "
-date:   2021-03-16 10:45:49 +0900
+date:   2021-03-16 11:10:49 +0900
 categories: Kubernetes
 tags: [Kubernetes, Kubectl, DaemonSet]
 toc: true
