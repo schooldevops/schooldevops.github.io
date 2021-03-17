@@ -26,6 +26,8 @@ kube-system   kube-scheduler-controlplane            1/1     Running   0        
 
 controlplane 가 붙어 있는 pods 는 static pod 로 동작한다. 
 
+마스터 노드의 이름에 해당하는 이름이 controlplane 이다. 
+
 ## 실행되는 node 확인하기. 
 
 ```go
