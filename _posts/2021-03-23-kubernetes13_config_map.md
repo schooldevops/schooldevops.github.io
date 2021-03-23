@@ -57,6 +57,9 @@ spec.containers 하위에 존재하는 env 부분을 위와 같이 변경하면 
 
 ```go
 kubectl get configmap
+or
+kubectl get cm
+
 NAME        DATA   AGE
 db-config   3      37s
 ```
