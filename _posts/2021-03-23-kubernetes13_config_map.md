@@ -3,7 +3,7 @@ layout: post
 title:  "Kubernetes ConfigMap 실습  "
 date:   2021-03-23 11:45:49 +0900
 categories: Kubernetes
-tags: [Kubernetes, Kubectl, CustomScheduler]
+tags: [Kubernetes, Kubectl, ConfigMap]
 toc: true
 ---
 
