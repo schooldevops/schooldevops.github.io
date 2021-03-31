@@ -69,7 +69,7 @@ AWS Console 에서 IAM 을 선택한다.
 
 검토 부분에서는 역할 이름을 지정한다. 
 
-test-assume-role 로 역할 이름ㅇ르 지정하고 생성했다. 
+test-assume-role 로 역할 이름을 지정하고 생성했다. 
 
 ![sts07](https://user-images.githubusercontent.com/66154381/112921741-4c5f8a00-9146-11eb-86dd-56e0345b4d0f.png)
 
