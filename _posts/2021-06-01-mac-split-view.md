@@ -67,11 +67,11 @@ toc: true
   
 ![spec_top_right](https://user-images.githubusercontent.com/66154381/120272066-643ec000-c2e7-11eb-8475-314fe74db76b.png)
 
-- 상단 왼쪽 위치 (control + command + 왼쪽 화살표)
+- 상단 오른쪽 위치 (control + command + 오른쪽 화살표)
   
 ![spec_top_left](https://user-images.githubusercontent.com/66154381/120272069-66088380-c2e7-11eb-9ce4-b51eefc1bb47.png)
 
-- 상단 오른쪽 위치 (control + command + 오른쪽 화살표)
+- 상단 왼쪽 위치 (control + command + 왼쪽 화살표)
   
 ![spec_top_bottom](https://user-images.githubusercontent.com/66154381/120272092-6d2f9180-c2e7-11eb-981f-a07d0c7b5f49.png)
 
